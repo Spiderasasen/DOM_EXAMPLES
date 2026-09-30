@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Example</title>
+    <script src="js/windowfunctions.js"></script>
+    <script src="js/documentFunctions.js"></script>
+    <script>window.addEventListener("load", registerResizeListener)</script>
+</head>
+<body>
+<button onclick="exploreBroswerObjects()">Explore Broswer Objects</button>
+<button onclick="getLocation()">Getting the location</button>
+<button onclick="printPage()">Print Page</button>
+<button onclick="getWindowSize()">get the inner hieght and width</button>
+<button onclick="registerResizeListener()">Listener</button>
+<h1 id="intro">Hello World</h1>
+<table id="myTable" class="tableClass">
+    <tbody>
+    <tr id="row1" class="tableRow">
+        <td id="row1Col1" class="tableCol">one</td>
+        <td id="row1Col2" class="tableCol">two</td>
+    </tr>
+    <tr id="row2" class="tableRow">
+        <td id="row2Col1" class="tableCol">three</td>
+        <td id="row2Col2" class="tableCol">four</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
