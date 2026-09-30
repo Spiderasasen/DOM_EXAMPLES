@@ -1,3 +1,5 @@
+//this reads the whole window
+
 function exploreBroswerObjects(){
     console.log(window);
     console.log(document);
