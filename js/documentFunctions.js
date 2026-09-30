@@ -52,3 +52,9 @@ function changingToDark(){
         element.style.color = "white";
     }
 }
+
+function addParagraph(){
+    const paragraphElement = document.createElement("p");
+    paragraphElement.innerHTML = "A new paragraph";
+    document.body.append(paragraphElement);
+}
